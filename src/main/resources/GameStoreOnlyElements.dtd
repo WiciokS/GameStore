@@ -1,0 +1,49 @@
+<?xml encoding="UTF-8"?>
+
+<!ELEMENT GameStore (name,location,Games)>
+<!ATTLIST GameStore
+    xmlns CDATA #FIXED ''>
+
+<!ELEMENT location (#PCDATA)>
+<!ATTLIST location
+    xmlns CDATA #FIXED ''>
+
+<!ELEMENT Games (Game)+>
+<!ATTLIST Games
+    xmlns CDATA #FIXED ''>
+
+<!ELEMENT Game (id,title,price,Developer,(Categories|Category+))>
+<!ATTLIST Game
+    xmlns CDATA #FIXED ''>
+
+<!ELEMENT title (#PCDATA)>
+<!ATTLIST title
+    xmlns CDATA #FIXED ''>
+
+<!ELEMENT price (#PCDATA)>
+<!ATTLIST price
+    xmlns CDATA #FIXED ''>
+
+<!ELEMENT Developer (id,name,country)>
+<!ATTLIST Developer
+    xmlns CDATA #FIXED ''>
+
+<!ELEMENT Categories (Category)+>
+<!ATTLIST Categories
+    xmlns CDATA #FIXED ''>
+
+<!ELEMENT country (#PCDATA)>
+<!ATTLIST country
+    xmlns CDATA #FIXED ''>
+
+<!ELEMENT name (#PCDATA)>
+<!ATTLIST name
+    xmlns CDATA #FIXED ''>
+
+<!ELEMENT id (#PCDATA)>
+<!ATTLIST id
+    xmlns CDATA #FIXED ''>
+
+<!ELEMENT Category (id,name)>
+<!ATTLIST Category
+    xmlns CDATA #FIXED ''>

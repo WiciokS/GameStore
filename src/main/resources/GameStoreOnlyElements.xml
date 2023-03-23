@@ -1,0 +1,332 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE GameStore SYSTEM "C:\Users\skude\IdeaProjects\GameStore\src\main\resources\GameStoreOnlyElements.dtd">
+<GameStore>
+    <name>Mega Games</name>
+    <location>456 High Street</location>
+    <Games>
+        <Game>
+            <id>g1</id>
+            <title>Cyberpunk 2077</title>
+            <price>49.99</price>
+            <Developer>
+                <id>d1</id>
+                <name>CD Projekt RED</name>
+                <country>Poland</country>
+            </Developer>
+            <Categories>
+                <Category>
+                    <id>c1</id>
+                    <name>Action</name>
+                </Category>
+                <Category>
+                    <id>c2</id>
+                    <name>RPG</name>
+                </Category>
+                <Category>
+                    <id>c3</id>
+                    <name>Sci-Fi</name>
+                </Category>
+                <Category>
+                    <id>c4</id>
+                    <name>Open World</name>
+                </Category>
+            </Categories>
+        </Game>
+        <Game>
+            <id>g2</id>
+            <title>The Last of Us Part II</title>
+            <price>59.99</price>
+            <Developer>
+                <id>d2</id>
+                <name>Naughty Dog</name>
+                <country>United States</country>
+            </Developer>
+            <Categories>
+                <Category>
+                    <id>c5</id>
+                    <name>Action</name>
+                </Category>
+                <Category>
+                    <id>c6</id>
+                    <name>Adventure</name>
+                </Category>
+                <Category>
+                    <id>c7</id>
+                    <name>Zombies</name>
+                </Category>
+            </Categories>
+        </Game>
+        <Game>
+            <id>g3</id>
+            <title>Death Stranding</title>
+            <price>39.99</price>
+            <Developer>
+                <id>d3</id>
+                <name>Kojima Productions</name>
+                <country>Japan</country>
+            </Developer>
+            <Categories>
+                <Category>
+                    <id>c8</id>
+                    <name>Action</name>
+                </Category>
+                <Category>
+                    <id>c9</id>
+                    <name>Adventure</name>
+                </Category>
+                <Category>
+                    <id>c10</id>
+                    <name>RPG</name>
+                </Category>
+                <Category>
+                    <id>c11</id>
+                    <name>Sci-Fi</name>
+                </Category>
+            </Categories>
+        </Game>
+        <Game>
+            <id>g4</id>
+            <title>Red Dead Redemption 2</title>
+            <price>29.99</price>
+            <Developer>
+                <id>d4</id>
+                <name>Rockstar Games</name>
+                <country>United States</country>
+            </Developer>
+            <Categories>
+                <Category>
+                    <id>c12</id>
+                    <name>Action</name>
+                </Category>
+                <Category>
+                    <id>c13</id>
+                    <name>Sci-Fi</name>
+                </Category>
+                <Category>
+                    <id>c14</id>
+                    <name>Open World</name>
+                </Category>
+                <Category>
+                    <id>c15</id>
+                    <name>Cowboys</name>
+                </Category>
+            </Categories>
+        </Game>
+        <Game>
+            <id>g5</id>
+            <title>Overwatch</title>
+            <price>19.99</price>
+            <Developer>
+                <id>d5</id>
+                <name>Blizzard Entertainment</name>
+                <country>United States</country>
+            </Developer>
+            <Categories>
+                <Category>
+                    <id>c16</id>
+                    <name>Action</name>
+                </Category>
+                <Category>
+                    <id>c17</id>
+                    <name>Strategy</name>
+                </Category>
+                <Category>
+                    <id>c18</id>
+                    <name>Sci-Fi</name>
+                </Category>
+            </Categories>
+        </Game>
+        <Game>
+            <id>g6</id>
+            <title>Minecraft</title>
+            <price>14.99</price>
+            <Developer>
+                <id>d6</id>
+                <name>Mojang</name>
+                <country>Sweden</country>
+            </Developer>
+            <Categories>
+                <Category>
+                    <id>c19</id>
+                    <name>Action</name>
+                </Category>
+                <Category>
+                    <id>c20</id>
+                    <name>Adventure</name>
+                </Category>
+                <Category>
+                    <id>c21</id>
+                    <name>Open World</name>
+                </Category>
+            </Categories>
+        </Game>
+        <Game>
+            <id>g7</id>
+            <title>Final Fantasy VII Remake</title>
+            <price>49.99</price>
+            <Developer>
+                <id>d7</id>
+                <name>Square Enix</name>
+                <country>Japan</country>
+            </Developer>
+            <Categories>
+                <Category>
+                    <id>c22</id>
+                    <name>Action</name>
+                </Category>
+                <Category>
+                    <id>c23</id>
+                    <name>RPG</name>
+                </Category>
+                <Category>
+                    <id>c24</id>
+                    <name>Sci-Fi</name>
+                </Category>
+                <Category>
+                    <id>c25</id>
+                    <name>Open World</name>
+                </Category>
+            </Categories>
+        </Game>
+        <Game>
+            <id>g8</id>
+            <title>Halo Infinite</title>
+            <price>59.99</price>
+            <Developer>
+                <id>d8</id>
+                <name>343 Industries</name>
+                <country>United States</country>
+            </Developer>
+            <Categories>
+                <Category>
+                    <id>c26</id>
+                    <name>Action</name>
+                </Category>
+                <Category>
+                    <id>c27</id>
+                    <name>Adventure</name>
+                </Category>
+                <Category>
+                    <id>c28</id>
+                    <name>Strategy</name>
+                </Category>
+                <Category>
+                    <id>c29</id>
+                    <name>Sci-Fi</name>
+                </Category>
+                <Category>
+                    <id>c30</id>
+                    <name>Zombies</name>
+                </Category>
+            </Categories>
+        </Game>
+        <Game>
+            <id>g9</id>
+            <title>Assassin's Creed Valhalla</title>
+            <price>49.99</price>
+            <Developer>
+                <id>d9</id>
+                <name>Ubisoft Montreal</name>
+                <country>Canada</country>
+            </Developer>
+            <Categories>
+                <Category>
+                    <id>c31</id>
+                    <name>Action</name>
+                </Category>
+                <Category>
+                    <id>c32</id>
+                    <name>Adventure</name>
+                </Category>
+                <Category>
+                    <id>c33</id>
+                    <name>RPG</name>
+                </Category>
+                <Category>
+                    <id>c34</id>
+                    <name>Open World</name>
+                </Category>
+                <Category>
+                    <id>c35</id>
+                    <name>Cowboys</name>
+                </Category>
+            </Categories>
+        </Game>
+        <Game>
+            <id>g10</id>
+            <title>God of War</title>
+            <price>39.99</price>
+            <Developer>
+                <id>d10</id>
+                <name>Santa Monica Studio</name>
+                <country>United States</country>
+            </Developer>
+            <Categories>
+                <Category>
+                    <id>c36</id>
+                    <name>Action</name>
+                </Category>
+                <Category>
+                    <id>c37</id>
+                    <name>Adventure</name>
+                </Category>
+                <Category>
+                    <id>c38</id>
+                    <name>RPG</name>
+                </Category>
+                <Category>
+                    <id>c39</id>
+                    <name>Mythology</name>
+                </Category>
+            </Categories>
+        </Game>
+        <Game>
+            <id>g11</id>
+            <title>Fortnite</title>
+            <price>0</price>
+            <Developer>
+                <id>d11</id>
+                <name>Epic Games</name>
+                <country>United States</country>
+            </Developer>
+            <Categories>
+                <Category>
+                    <id>c40</id>
+                    <name>Action</name>
+                </Category>
+                <Category>
+                    <id>c41</id>
+                    <name>Adventure</name>
+                </Category>
+                <Category>
+                    <id>c42</id>
+                    <name>Open World</name>
+                </Category>
+            </Categories>
+        </Game>
+        <Game>
+            <id>g12</id>
+            <title>Super Mario Odyssey</title>
+            <price>59.99</price>
+            <Developer>
+                <id>d12</id>
+                <name>Nintendo</name>
+                <country>Japan</country>
+            </Developer>
+            <Categories>
+                <Category>
+                    <id>c43</id>
+                    <name>Action</name>
+                </Category>
+                <Category>
+                    <id>c44</id>
+                    <name>Adventure</name>
+                </Category>
+                <Category>
+                    <id>c45</id>
+                    <name>Puzzle</name>
+                </Category>
+            </Categories>
+        </Game>
+    </Games>
+</GameStore>

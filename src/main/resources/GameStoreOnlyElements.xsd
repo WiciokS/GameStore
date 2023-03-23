@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema attributeFormDefault="unqualified" elementFormDefault="qualified" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:element name="GameStore" type="GameStoreType"/>
+  <xs:complexType name="DeveloperType">
+    <xs:sequence>
+      <xs:element type="xs:string" name="id"/>
+      <xs:element type="xs:string" name="name"/>
+      <xs:element name="country">
+        <xs:simpleType>
+          <xs:restriction base="xs:string">
+            <xs:enumeration value="Poland"/>
+            <xs:enumeration value="United States"/>
+            <xs:enumeration value="Japan"/>
+            <xs:enumeration value="Sweden"/>
+            <xs:enumeration value="Canada"/>
+          </xs:restriction>
+        </xs:simpleType>
+      </xs:element>
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="CategoryType">
+    <xs:sequence>
+      <xs:element type="xs:string" name="id"/>
+      <xs:element name="name">
+        <xs:simpleType>
+          <xs:restriction base="xs:string">
+            <xs:enumeration value="Action"/>
+            <xs:enumeration value="RPG"/>
+            <xs:enumeration value="Sci-Fi"/>
+            <xs:enumeration value="Open World"/>
+            <xs:enumeration value="Adventure"/>
+            <xs:enumeration value="Zombies"/>
+            <xs:enumeration value="Cowboys"/>
+            <xs:enumeration value="Strategy"/>
+            <xs:enumeration value="Puzzle"/>
+            <xs:enumeration value="Mythology"/>
+          </xs:restriction>
+        </xs:simpleType>
+      </xs:element>
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="CategoriesType">
+    <xs:sequence>
+      <xs:element type="CategoryType" name="Category" maxOccurs="unbounded" minOccurs="0"/>
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="GameType">
+    <xs:sequence>
+      <xs:element type="xs:string" name="id"/>
+      <xs:element type="xs:string" name="title"/>
+      <xs:element name="price">
+        <xs:simpleType>
+          <xs:restriction base="xs:string">
+            <xs:enumeration value="49.99"/>
+            <xs:enumeration value="59.99"/>
+            <xs:enumeration value="39.99"/>
+            <xs:enumeration value="29.99"/>
+            <xs:enumeration value="19.99"/>
+            <xs:enumeration value="14.99"/>
+            <xs:enumeration value="0"/>
+          </xs:restriction>
+        </xs:simpleType>
+      </xs:element>
+      <xs:element type="DeveloperType" name="Developer"/>
+      <xs:element type="CategoriesType" name="Categories" minOccurs="0"/>
+      <xs:element type="CategoryType" name="Category" maxOccurs="unbounded" minOccurs="0"/>
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="GamesType">
+    <xs:sequence>
+      <xs:element type="GameType" name="Game" maxOccurs="unbounded" minOccurs="0"/>
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="GameStoreType">
+    <xs:sequence>
+      <xs:element type="xs:string" name="name"/>
+      <xs:element type="xs:string" name="location"/>
+      <xs:element type="GamesType" name="Games"/>
+    </xs:sequence>
+  </xs:complexType>
+</xs:schema>
